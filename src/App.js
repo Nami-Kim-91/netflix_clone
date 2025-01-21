@@ -1,9 +1,14 @@
 import "./App.scss";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
+import FAQ from "./components/FAQ";
 
 const App = () => {
   return (
-    <div>
-      <h1>넷플릭스 클론 사이트</h1>
+    <div className="app">
+      <Header/>
+      <Banner/>
+      <FAQ />
     </div>
   );
 };
