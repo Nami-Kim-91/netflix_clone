@@ -25,9 +25,8 @@ header .membership{
     }
   }
   input{    
-    flex: 1;    
     background-color: transparent;
-    color: #fff;
+    flex: 1;    
     font-size: $font-size-medium;    
     padding: 0.5rem 1rem;
     padding-top: 20px;
@@ -36,18 +35,6 @@ header .membership{
     @include responsive($breakpoint-small){
       width: 100%;
     }
-  }
-  .email-error{
-    color: $primary-color;
-    font-weight: bolder;
-    font-size: 12px;
-    text-align: left;
-  }
-  &.error{
-    input{
-      border: 2px solid #f00;
-    }
-    
   }
   button{
     font-size: $font-size-medium;      

@@ -8,7 +8,7 @@ header{
 nav{
   width: 80%;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 15px;
   display: flex;
   justify-content: space-between;
   @include responsive($breakpoint-medium){
@@ -17,6 +17,9 @@ nav{
   h1{
     color: $primary-color;
     font-size: $font-size-large;
+    img{
+      width: 190px;
+    }
   }
   div{
     select{
